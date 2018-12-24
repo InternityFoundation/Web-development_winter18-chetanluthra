@@ -1,0 +1,85 @@
+body
+{
+	background: #f5f5f5;
+}
+
+h5
+{
+	font-weight: 400;
+}
+
+.container
+{
+	margin-top: 80px;
+	width: 400px;
+	height: 700px;
+}
+
+.tabs .indicator
+{
+	background-color: #e0f2f1;
+	height: 60px;
+	opacity: 0.3;
+}
+
+.form-container
+{
+	padding: 40px;
+	padding-top: 10px;
+}
+
+.confirmation-tabs-btn
+{
+	position: absolute;
+}
+
+@media(max-width:500px)
+{
+	.container{
+		width: 330px;
+	}
+}
+.input-field label {
+    color: #000d35 !important;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=password]:focus + label {
+    color: #000d35 !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus,.input-field input[type=email]:focus + .input-field input[type=password]:focus {
+    border-bottom: 1px solid #000d35 !important;
+    box-shadow: 0 1px 0 0 #000d35 !important;
+  }
+  /* valid color */
+  .input-field input[type=text].valid,.input-field input[type=email].valid, .input-field input[type=password].valid {
+    border-bottom: 1px solid #000d35 !important;
+    box-shadow: 0 1px 0 0 #000d35 !important;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid,.input-field input[type=email]:invalid, .input-field input[type=password]:invalid{
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000d35 !important;
+  }
+  .input-field input[type=number]:focus + label {
+    color: #000d35 !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=number]:focus {
+    border-bottom: 1px solid #000d35 !important;
+    box-shadow: 0 1px 0 0 #000d35 !important;
+  }
+  /* valid color */
+  .input-field input[type=number].valid {
+    border-bottom: 1px solid #000d35 !important;
+    box-shadow: 0 1px 0 0 #000d35 !important;
+  }
+  /* invalid color */
+  .input-field input[type=number].invalid {
+    border-bottom: 1px solid red !important;
+    box-shadow: 0 1px 0 0 red !important;
+  }
