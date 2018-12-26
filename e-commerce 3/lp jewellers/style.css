@@ -1,0 +1,36 @@
+header{
+    background: url(img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+@media screen and (max-width: 670px){
+    header{
+      min-height: 500px;
+    }
+}
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.tabs .indicator{
+    background-color: #1a237e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+.wrapper{
+    width: 100%;
+    text-align: center;
+    margin-top: 12em;
+    font-family: "Libre Franklin";
+}
+div.wrapper{
+    animation-delay: 1s;
+}
+.Brand_Description{
+    font-size: 20px;
+}
+.Brand_Name{
+    font-size: 50px;
+}

@@ -1,0 +1,108 @@
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>LP jewellers</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="login/css/style.css">
+</head>
+
+<body>
+
+
+  <div class="container white z-depth-2" style="margin-top:3%">
+	<ul class="tabs"  style="background-color:#000d35">
+		<li class="tab col s3"><a class="white-text active" href="#test-swipe-1" >login</a></li>
+		<li class="tab col s3"><a class="white-text" href="#test-swipe-2">Sign-up</a></li>
+	</ul>
+	<div id="test-swipe-1" class="col s12">
+		<form class="col s12" action="lp jewellers/index.html">
+			<div class="form-container">
+				<center> 
+						<span style="color:#000d35; font-size:18px; font-weight:500;">Login To Continue...</span><br><br>
+
+					<button class="btn waves-effect waves-light   indigo darken-4" type="submit" style="min-width:250px;" name="action">LogIn with Facebook</button>
+					<br>
+					<br>
+          <button class="btn waves-effect waves-light red darken-1" type="submit" name="action" style="min-width:250px;">Login with Google</button>
+				</center>
+				<Br>
+					<div class="row">
+					<div class="input-field  col s12">
+						<input id="email"  type="email" class="validate">
+						<label for="email" >Email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password" type="password" class="validate">
+						<label for="password" >Password</label>
+					</div>
+				</div>
+				<br>
+				<center>
+					<button class="btn waves-effect waves-light " id="target1" type="submit" name="action" formaction="lp jewellers/index.html" style="background-color:#000d35">LogIn</button>
+					<br>
+					<br>
+					<a href="">Forgotten password?</a>
+
+				</center>
+			</div>
+		</form>
+	</div>
+	<div id="test-swipe-2" class="col s12">
+		<form class="col s12" action="lp jewellers/index.html" >
+			<div class="form-container">
+				<center><h3 style="color:#000d35">WELCOME</h3></center>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="UserName" type="text" class="validate">
+						<label for="UserName">UserName</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="email_Registration" type="email" class="validate">
+						<label for="email_Registration" >Email</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password_Registration" type="password" class="validate">
+						<label for="password_Registration" >Password</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input id="password-confirm" type="password" class="validate">
+						<label for="password-confirm" >Password Confirmation</label>
+					</div>
+				</div>
+				<center>
+					<button class="btn waves-effect waves-light" id="target" formaction="lp jewellers/index.html" style="background-color:#000d35" type="submit" name="action">Submit</button>
+				</center>
+			</div>
+		</form>
+	</div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="login/jQuery/functionality.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+ $(".button-collapse").sideNav();
+
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
