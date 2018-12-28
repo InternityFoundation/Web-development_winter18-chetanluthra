@@ -1,8 +1,9 @@
-header{
-    background: url(img/3.jpg);
+.slider{
+    background: url(img/16.jpg);
     background-size: cover;
     background-position: center;
     min-height: 1000px;
+    animation: slide 20s infinite;
 }
 @media screen and (max-width: 670px){
     header{
@@ -33,4 +34,36 @@ div.wrapper{
 }
 .Brand_Name{
     font-size: 50px;
+}
+@keyframes slide{
+    20%{
+        background: url(img/16.jpg) no-repeat;
+        background-size: cover;
+        min-height: 1000px;
+
+    }
+    40%{
+        background: url(img/17.jpg) no-repeat;
+        background-size: cover;
+        min-height: 1000px;
+
+    }
+    60%{
+        background: url(img/18.jpg) no-repeat;
+        background-size: cover;
+        min-height: 1000px;
+
+    }
+    80%{
+        background: url(img/19.jpg) no-repeat;
+        background-size: cover;
+        min-height: 1000px;
+
+    }
+    100%{
+        background: url(img/20.jpg) no-repeat;
+        background-size: cover;
+        min-height: 1000px;
+
+    }
 }
